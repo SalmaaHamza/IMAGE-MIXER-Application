@@ -1,0 +1,592 @@
+2020-03-24 23:39:47,104 CACHEDIR=/home/salma/.cache/matplotlib
+2020-03-24 23:39:47,108 Using fontManager instance from /home/salma/.cache/matplotlib/fontlist-v300.json
+2020-03-24 23:39:47,228 Loaded backend qt5agg version unknown.
+2020-03-24 23:39:47,228 Loaded backend Qt5Agg version unknown.
+2020-03-24 23:40:00,196 Open Image0
+2020-03-24 23:40:00,197 Display Image
+2020-03-24 23:40:04,458 combobox0Clicked
+2020-03-24 23:40:04,459 FT_Mag Component is selected
+2020-03-24 23:40:04,462 Display Image
+2020-03-24 23:40:06,954 Image 1 is selected as input 1
+2020-03-24 23:40:09,109 Image 1 is selected as input 2
+2020-03-24 23:40:11,034 Magnitude is selected as component  1
+2020-03-24 23:40:12,716 Phase is selected as component  2
+2020-03-24 23:40:12,716 start mixing
+2020-03-24 23:40:12,741 Transfrom the components from complex forms into time
+2020-03-24 23:40:12,776 Finish mixing
+2020-03-24 23:40:12,776 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:12,776 start mixing
+2020-03-24 23:40:12,789 Transfrom the components from complex forms into time
+2020-03-24 23:40:12,795 Finish mixing
+2020-03-24 23:40:12,795 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:16,797 Value of slider1changed
+2020-03-24 23:40:16,798 start mixing
+2020-03-24 23:40:16,814 Transfrom the components from complex forms into time
+2020-03-24 23:40:16,820 Finish mixing
+2020-03-24 23:40:16,820 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:16,820 start mixing
+2020-03-24 23:40:16,832 Transfrom the components from complex forms into time
+2020-03-24 23:40:16,837 Finish mixing
+2020-03-24 23:40:16,838 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:16,839 Display Image
+2020-03-24 23:40:21,481 Value of slider2changed
+2020-03-24 23:40:21,482 start mixing
+2020-03-24 23:40:21,498 Transfrom the components from complex forms into time
+2020-03-24 23:40:21,505 Finish mixing
+2020-03-24 23:40:21,506 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:21,506 start mixing
+2020-03-24 23:40:21,522 Transfrom the components from complex forms into time
+2020-03-24 23:40:21,530 Finish mixing
+2020-03-24 23:40:21,531 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:21,532 Display Image
+2020-03-24 23:40:22,677 Value of slider2changed
+2020-03-24 23:40:22,678 start mixing
+2020-03-24 23:40:22,694 Transfrom the components from complex forms into time
+2020-03-24 23:40:22,700 Finish mixing
+2020-03-24 23:40:22,701 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:22,701 start mixing
+2020-03-24 23:40:22,712 Transfrom the components from complex forms into time
+2020-03-24 23:40:22,717 Finish mixing
+2020-03-24 23:40:22,718 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:22,719 Display Image
+2020-03-24 23:40:30,015 Open Image1
+2020-03-24 23:40:30,015 Two images have the same size
+2020-03-24 23:40:30,015 Display Image
+2020-03-24 23:40:33,031 combobox1Clicked
+2020-03-24 23:40:33,032 Imag Component is selected
+2020-03-24 23:40:33,033 Display Image
+2020-03-24 23:40:38,053 start mixing
+2020-03-24 23:40:38,080 Transfrom the components from complex forms into time
+2020-03-24 23:40:38,086 Finish mixing
+2020-03-24 23:40:38,087 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:38,087 start mixing
+2020-03-24 23:40:38,097 Transfrom the components from complex forms into time
+2020-03-24 23:40:38,104 Finish mixing
+2020-03-24 23:40:38,104 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:38,105 Display Image
+2020-03-24 23:40:47,517 Phase is selected as component  2
+2020-03-24 23:40:47,517 start mixing
+2020-03-24 23:40:47,533 Transfrom the components from complex forms into time
+2020-03-24 23:40:47,542 Finish mixing
+2020-03-24 23:40:47,542 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:47,543 start mixing
+2020-03-24 23:40:47,560 Transfrom the components from complex forms into time
+2020-03-24 23:40:47,566 Finish mixing
+2020-03-24 23:40:47,567 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:47,568 Display Image
+2020-03-24 23:40:50,251 Magnitude is selected as component  1
+2020-03-24 23:40:50,252 start mixing
+2020-03-24 23:40:50,263 Transfrom the components from complex forms into time
+2020-03-24 23:40:50,272 Finish mixing
+2020-03-24 23:40:50,272 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:50,272 start mixing
+2020-03-24 23:40:50,289 Transfrom the components from complex forms into time
+2020-03-24 23:40:50,299 Finish mixing
+2020-03-24 23:40:50,300 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:50,301 Display Image
+2020-03-24 23:40:57,291 Value of slider1changed
+2020-03-24 23:40:57,291 start mixing
+2020-03-24 23:40:57,306 Transfrom the components from complex forms into time
+2020-03-24 23:40:57,313 Finish mixing
+2020-03-24 23:40:57,314 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:57,314 start mixing
+2020-03-24 23:40:57,330 Transfrom the components from complex forms into time
+2020-03-24 23:40:57,340 Finish mixing
+2020-03-24 23:40:57,340 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:57,342 Display Image
+2020-03-24 23:40:59,237 Value of slider1changed
+2020-03-24 23:40:59,237 start mixing
+2020-03-24 23:40:59,251 Transfrom the components from complex forms into time
+2020-03-24 23:40:59,258 Finish mixing
+2020-03-24 23:40:59,259 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:59,259 start mixing
+2020-03-24 23:40:59,275 Transfrom the components from complex forms into time
+2020-03-24 23:40:59,284 Finish mixing
+2020-03-24 23:40:59,284 Real of input 1 $ imaginary of input 2
+2020-03-24 23:40:59,286 Display Image
+2020-03-24 23:41:00,715 Value of slider1changed
+2020-03-24 23:41:00,715 start mixing
+2020-03-24 23:41:00,731 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,737 Finish mixing
+2020-03-24 23:41:00,737 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,737 start mixing
+2020-03-24 23:41:00,747 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,753 Finish mixing
+2020-03-24 23:41:00,753 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,754 Display Image
+2020-03-24 23:41:00,756 Value of slider1changed
+2020-03-24 23:41:00,756 start mixing
+2020-03-24 23:41:00,773 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,781 Finish mixing
+2020-03-24 23:41:00,782 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,782 start mixing
+2020-03-24 23:41:00,795 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,804 Finish mixing
+2020-03-24 23:41:00,805 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,806 Display Image
+2020-03-24 23:41:00,809 Value of slider1changed
+2020-03-24 23:41:00,809 start mixing
+2020-03-24 23:41:00,826 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,834 Finish mixing
+2020-03-24 23:41:00,834 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,834 start mixing
+2020-03-24 23:41:00,851 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,858 Finish mixing
+2020-03-24 23:41:00,859 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,860 Display Image
+2020-03-24 23:41:00,862 Value of slider1changed
+2020-03-24 23:41:00,863 start mixing
+2020-03-24 23:41:00,875 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,883 Finish mixing
+2020-03-24 23:41:00,883 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,884 start mixing
+2020-03-24 23:41:00,897 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,905 Finish mixing
+2020-03-24 23:41:00,906 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,908 Display Image
+2020-03-24 23:41:00,910 Value of slider1changed
+2020-03-24 23:41:00,910 start mixing
+2020-03-24 23:41:00,931 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,939 Finish mixing
+2020-03-24 23:41:00,940 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,940 start mixing
+2020-03-24 23:41:00,955 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,961 Finish mixing
+2020-03-24 23:41:00,962 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,963 Display Image
+2020-03-24 23:41:00,966 Value of slider1changed
+2020-03-24 23:41:00,966 start mixing
+2020-03-24 23:41:00,977 Transfrom the components from complex forms into time
+2020-03-24 23:41:00,987 Finish mixing
+2020-03-24 23:41:00,987 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:00,987 start mixing
+2020-03-24 23:41:01,001 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,007 Finish mixing
+2020-03-24 23:41:01,008 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,009 Display Image
+2020-03-24 23:41:01,014 Value of slider1changed
+2020-03-24 23:41:01,014 start mixing
+2020-03-24 23:41:01,036 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,047 Finish mixing
+2020-03-24 23:41:01,047 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,047 start mixing
+2020-03-24 23:41:01,065 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,074 Finish mixing
+2020-03-24 23:41:01,075 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,076 Display Image
+2020-03-24 23:41:01,076 Value of slider1changed
+2020-03-24 23:41:01,076 start mixing
+2020-03-24 23:41:01,093 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,105 Finish mixing
+2020-03-24 23:41:01,105 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,105 start mixing
+2020-03-24 23:41:01,121 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,131 Finish mixing
+2020-03-24 23:41:01,132 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,133 Display Image
+2020-03-24 23:41:01,136 Value of slider1changed
+2020-03-24 23:41:01,136 start mixing
+2020-03-24 23:41:01,153 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,163 Finish mixing
+2020-03-24 23:41:01,164 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,165 start mixing
+2020-03-24 23:41:01,182 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,192 Finish mixing
+2020-03-24 23:41:01,192 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,194 Display Image
+2020-03-24 23:41:01,196 Value of slider1changed
+2020-03-24 23:41:01,196 start mixing
+2020-03-24 23:41:01,213 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,223 Finish mixing
+2020-03-24 23:41:01,223 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,223 start mixing
+2020-03-24 23:41:01,242 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,252 Finish mixing
+2020-03-24 23:41:01,253 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,254 Display Image
+2020-03-24 23:41:01,300 Value of slider1changed
+2020-03-24 23:41:01,300 start mixing
+2020-03-24 23:41:01,311 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,317 Finish mixing
+2020-03-24 23:41:01,317 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,317 start mixing
+2020-03-24 23:41:01,328 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,334 Finish mixing
+2020-03-24 23:41:01,335 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,336 Display Image
+2020-03-24 23:41:01,339 Value of slider1changed
+2020-03-24 23:41:01,340 start mixing
+2020-03-24 23:41:01,361 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,368 Finish mixing
+2020-03-24 23:41:01,369 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,369 start mixing
+2020-03-24 23:41:01,379 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,386 Finish mixing
+2020-03-24 23:41:01,387 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,388 Display Image
+2020-03-24 23:41:01,437 Value of slider1changed
+2020-03-24 23:41:01,437 start mixing
+2020-03-24 23:41:01,453 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,462 Finish mixing
+2020-03-24 23:41:01,463 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,463 start mixing
+2020-03-24 23:41:01,479 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,488 Finish mixing
+2020-03-24 23:41:01,488 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,490 Display Image
+2020-03-24 23:41:01,636 Value of slider1changed
+2020-03-24 23:41:01,636 start mixing
+2020-03-24 23:41:01,653 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,660 Finish mixing
+2020-03-24 23:41:01,660 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,660 start mixing
+2020-03-24 23:41:01,670 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,677 Finish mixing
+2020-03-24 23:41:01,677 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,678 Display Image
+2020-03-24 23:41:01,680 Value of slider1changed
+2020-03-24 23:41:01,681 start mixing
+2020-03-24 23:41:01,696 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,704 Finish mixing
+2020-03-24 23:41:01,704 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,704 start mixing
+2020-03-24 23:41:01,717 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,724 Finish mixing
+2020-03-24 23:41:01,725 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,726 Display Image
+2020-03-24 23:41:01,728 Value of slider1changed
+2020-03-24 23:41:01,728 start mixing
+2020-03-24 23:41:01,745 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,756 Finish mixing
+2020-03-24 23:41:01,756 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,756 start mixing
+2020-03-24 23:41:01,771 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,778 Finish mixing
+2020-03-24 23:41:01,778 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,780 Display Image
+2020-03-24 23:41:01,782 Value of slider1changed
+2020-03-24 23:41:01,782 start mixing
+2020-03-24 23:41:01,794 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,804 Finish mixing
+2020-03-24 23:41:01,806 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,806 start mixing
+2020-03-24 23:41:01,820 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,826 Finish mixing
+2020-03-24 23:41:01,826 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,827 Display Image
+2020-03-24 23:41:01,829 Value of slider1changed
+2020-03-24 23:41:01,830 start mixing
+2020-03-24 23:41:01,842 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,850 Finish mixing
+2020-03-24 23:41:01,851 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,851 start mixing
+2020-03-24 23:41:01,869 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,875 Finish mixing
+2020-03-24 23:41:01,876 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,878 Display Image
+2020-03-24 23:41:01,880 Value of slider1changed
+2020-03-24 23:41:01,880 start mixing
+2020-03-24 23:41:01,891 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,901 Finish mixing
+2020-03-24 23:41:01,902 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,902 start mixing
+2020-03-24 23:41:01,917 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,924 Finish mixing
+2020-03-24 23:41:01,924 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,926 Display Image
+2020-03-24 23:41:01,928 Value of slider1changed
+2020-03-24 23:41:01,928 start mixing
+2020-03-24 23:41:01,939 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,946 Finish mixing
+2020-03-24 23:41:01,947 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,947 start mixing
+2020-03-24 23:41:01,971 Transfrom the components from complex forms into time
+2020-03-24 23:41:01,977 Finish mixing
+2020-03-24 23:41:01,977 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:01,979 Display Image
+2020-03-24 23:41:02,319 Value of slider1changed
+2020-03-24 23:41:02,319 start mixing
+2020-03-24 23:41:02,335 Transfrom the components from complex forms into time
+2020-03-24 23:41:02,341 Finish mixing
+2020-03-24 23:41:02,341 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:02,341 start mixing
+2020-03-24 23:41:02,352 Transfrom the components from complex forms into time
+2020-03-24 23:41:02,358 Finish mixing
+2020-03-24 23:41:02,359 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:02,361 Display Image
+2020-03-24 23:41:02,366 Value of slider1changed
+2020-03-24 23:41:02,368 start mixing
+2020-03-24 23:41:02,392 Transfrom the components from complex forms into time
+2020-03-24 23:41:02,398 Finish mixing
+2020-03-24 23:41:02,399 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:02,399 start mixing
+2020-03-24 23:41:02,409 Transfrom the components from complex forms into time
+2020-03-24 23:41:02,414 Finish mixing
+2020-03-24 23:41:02,415 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:02,416 Display Image
+2020-03-24 23:41:03,113 Value of slider1changed
+2020-03-24 23:41:03,114 start mixing
+2020-03-24 23:41:03,127 Transfrom the components from complex forms into time
+2020-03-24 23:41:03,134 Finish mixing
+2020-03-24 23:41:03,134 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:03,134 start mixing
+2020-03-24 23:41:03,144 Transfrom the components from complex forms into time
+2020-03-24 23:41:03,150 Finish mixing
+2020-03-24 23:41:03,150 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:03,152 Display Image
+2020-03-24 23:41:11,485 Value of slider2changed
+2020-03-24 23:41:11,485 start mixing
+2020-03-24 23:41:11,502 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,508 Finish mixing
+2020-03-24 23:41:11,508 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,508 start mixing
+2020-03-24 23:41:11,520 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,527 Finish mixing
+2020-03-24 23:41:11,527 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,529 Display Image
+2020-03-24 23:41:11,532 Value of slider2changed
+2020-03-24 23:41:11,533 start mixing
+2020-03-24 23:41:11,549 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,558 Finish mixing
+2020-03-24 23:41:11,559 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,559 start mixing
+2020-03-24 23:41:11,570 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,577 Finish mixing
+2020-03-24 23:41:11,577 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,579 Display Image
+2020-03-24 23:41:11,582 Value of slider2changed
+2020-03-24 23:41:11,583 start mixing
+2020-03-24 23:41:11,600 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,610 Finish mixing
+2020-03-24 23:41:11,611 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,611 start mixing
+2020-03-24 23:41:11,631 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,639 Finish mixing
+2020-03-24 23:41:11,640 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,642 Display Image
+2020-03-24 23:41:11,645 Value of slider2changed
+2020-03-24 23:41:11,646 start mixing
+2020-03-24 23:41:11,663 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,670 Finish mixing
+2020-03-24 23:41:11,671 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,672 start mixing
+2020-03-24 23:41:11,683 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,690 Finish mixing
+2020-03-24 23:41:11,690 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,691 Display Image
+2020-03-24 23:41:11,692 Value of slider2changed
+2020-03-24 23:41:11,692 start mixing
+2020-03-24 23:41:11,703 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,711 Finish mixing
+2020-03-24 23:41:11,712 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,712 start mixing
+2020-03-24 23:41:11,734 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,742 Finish mixing
+2020-03-24 23:41:11,742 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,744 Display Image
+2020-03-24 23:41:11,748 Value of slider2changed
+2020-03-24 23:41:11,748 start mixing
+2020-03-24 23:41:11,764 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,772 Finish mixing
+2020-03-24 23:41:11,773 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,773 start mixing
+2020-03-24 23:41:11,784 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,790 Finish mixing
+2020-03-24 23:41:11,791 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,792 Display Image
+2020-03-24 23:41:11,795 Value of slider2changed
+2020-03-24 23:41:11,796 start mixing
+2020-03-24 23:41:11,812 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,820 Finish mixing
+2020-03-24 23:41:11,820 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,820 start mixing
+2020-03-24 23:41:11,830 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,840 Finish mixing
+2020-03-24 23:41:11,842 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,844 Display Image
+2020-03-24 23:41:11,847 Value of slider2changed
+2020-03-24 23:41:11,848 start mixing
+2020-03-24 23:41:11,864 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,872 Finish mixing
+2020-03-24 23:41:11,874 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,874 start mixing
+2020-03-24 23:41:11,886 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,893 Finish mixing
+2020-03-24 23:41:11,894 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,895 Display Image
+2020-03-24 23:41:11,899 Value of slider2changed
+2020-03-24 23:41:11,899 start mixing
+2020-03-24 23:41:11,915 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,925 Finish mixing
+2020-03-24 23:41:11,925 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,925 start mixing
+2020-03-24 23:41:11,944 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,953 Finish mixing
+2020-03-24 23:41:11,953 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,955 Display Image
+2020-03-24 23:41:11,959 Value of slider2changed
+2020-03-24 23:41:11,959 start mixing
+2020-03-24 23:41:11,977 Transfrom the components from complex forms into time
+2020-03-24 23:41:11,986 Finish mixing
+2020-03-24 23:41:11,986 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:11,986 start mixing
+2020-03-24 23:41:12,003 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,013 Finish mixing
+2020-03-24 23:41:12,013 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,015 Display Image
+2020-03-24 23:41:12,019 Value of slider2changed
+2020-03-24 23:41:12,019 start mixing
+2020-03-24 23:41:12,038 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,048 Finish mixing
+2020-03-24 23:41:12,049 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,049 start mixing
+2020-03-24 23:41:12,065 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,075 Finish mixing
+2020-03-24 23:41:12,075 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,077 Display Image
+2020-03-24 23:41:12,081 Value of slider2changed
+2020-03-24 23:41:12,081 start mixing
+2020-03-24 23:41:12,101 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,111 Finish mixing
+2020-03-24 23:41:12,111 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,111 start mixing
+2020-03-24 23:41:12,127 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,137 Finish mixing
+2020-03-24 23:41:12,138 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,140 Display Image
+2020-03-24 23:41:12,904 Value of slider2changed
+2020-03-24 23:41:12,904 start mixing
+2020-03-24 23:41:12,923 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,930 Finish mixing
+2020-03-24 23:41:12,930 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,930 start mixing
+2020-03-24 23:41:12,941 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,948 Finish mixing
+2020-03-24 23:41:12,948 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,949 Display Image
+2020-03-24 23:41:12,953 Value of slider2changed
+2020-03-24 23:41:12,953 start mixing
+2020-03-24 23:41:12,972 Transfrom the components from complex forms into time
+2020-03-24 23:41:12,983 Finish mixing
+2020-03-24 23:41:12,983 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:12,984 start mixing
+2020-03-24 23:41:13,004 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,010 Finish mixing
+2020-03-24 23:41:13,011 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,012 Display Image
+2020-03-24 23:41:13,015 Value of slider2changed
+2020-03-24 23:41:13,015 start mixing
+2020-03-24 23:41:13,031 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,041 Finish mixing
+2020-03-24 23:41:13,041 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,041 start mixing
+2020-03-24 23:41:13,052 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,058 Finish mixing
+2020-03-24 23:41:13,059 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,060 Display Image
+2020-03-24 23:41:13,063 Value of slider2changed
+2020-03-24 23:41:13,064 start mixing
+2020-03-24 23:41:13,080 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,090 Finish mixing
+2020-03-24 23:41:13,091 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,091 start mixing
+2020-03-24 23:41:13,109 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,115 Finish mixing
+2020-03-24 23:41:13,116 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,117 Display Image
+2020-03-24 23:41:13,118 Value of slider2changed
+2020-03-24 23:41:13,118 start mixing
+2020-03-24 23:41:13,131 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,140 Finish mixing
+2020-03-24 23:41:13,141 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,141 start mixing
+2020-03-24 23:41:13,151 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,158 Finish mixing
+2020-03-24 23:41:13,158 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,160 Display Image
+2020-03-24 23:41:13,163 Value of slider2changed
+2020-03-24 23:41:13,164 start mixing
+2020-03-24 23:41:13,179 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,189 Finish mixing
+2020-03-24 23:41:13,189 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,189 start mixing
+2020-03-24 23:41:13,209 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,215 Finish mixing
+2020-03-24 23:41:13,215 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,216 Display Image
+2020-03-24 23:41:13,220 Value of slider2changed
+2020-03-24 23:41:13,220 start mixing
+2020-03-24 23:41:13,237 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,245 Finish mixing
+2020-03-24 23:41:13,246 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,246 start mixing
+2020-03-24 23:41:13,259 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,265 Finish mixing
+2020-03-24 23:41:13,266 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,267 Display Image
+2020-03-24 23:41:13,270 Value of slider2changed
+2020-03-24 23:41:13,270 start mixing
+2020-03-24 23:41:13,285 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,292 Finish mixing
+2020-03-24 23:41:13,292 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,292 start mixing
+2020-03-24 23:41:13,315 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,322 Finish mixing
+2020-03-24 23:41:13,322 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,324 Display Image
+2020-03-24 23:41:13,327 Value of slider2changed
+2020-03-24 23:41:13,327 start mixing
+2020-03-24 23:41:13,342 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,350 Finish mixing
+2020-03-24 23:41:13,350 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,351 start mixing
+2020-03-24 23:41:13,363 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,370 Finish mixing
+2020-03-24 23:41:13,371 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,372 Display Image
+2020-03-24 23:41:13,375 Value of slider2changed
+2020-03-24 23:41:13,376 start mixing
+2020-03-24 23:41:13,388 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,397 Finish mixing
+2020-03-24 23:41:13,397 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,397 start mixing
+2020-03-24 23:41:13,412 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,419 Finish mixing
+2020-03-24 23:41:13,419 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,421 Display Image
+2020-03-24 23:41:13,425 Value of slider2changed
+2020-03-24 23:41:13,425 start mixing
+2020-03-24 23:41:13,440 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,447 Finish mixing
+2020-03-24 23:41:13,449 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,449 start mixing
+2020-03-24 23:41:13,461 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,467 Finish mixing
+2020-03-24 23:41:13,467 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,468 Display Image
+2020-03-24 23:41:13,472 Value of slider2changed
+2020-03-24 23:41:13,473 start mixing
+2020-03-24 23:41:13,490 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,496 Finish mixing
+2020-03-24 23:41:13,497 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,497 start mixing
+2020-03-24 23:41:13,517 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,523 Finish mixing
+2020-03-24 23:41:13,524 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,526 Display Image
+2020-03-24 23:41:13,855 Value of slider2changed
+2020-03-24 23:41:13,855 start mixing
+2020-03-24 23:41:13,872 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,878 Finish mixing
+2020-03-24 23:41:13,878 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,878 start mixing
+2020-03-24 23:41:13,888 Transfrom the components from complex forms into time
+2020-03-24 23:41:13,894 Finish mixing
+2020-03-24 23:41:13,894 Real of input 1 $ imaginary of input 2
+2020-03-24 23:41:13,895 Display Image
+2020-03-24 23:41:21,721 combobox1Clicked
+2020-03-24 23:41:21,721 FT_Phase Component is selected
+2020-03-24 23:41:21,725 Display Image
+2020-03-24 23:41:26,060 combobox0Clicked
+2020-03-24 23:41:26,060 Imag Component is selected
+2020-03-24 23:41:26,064 Display Image
