@@ -39,16 +39,15 @@ class ImageModel():
        
 
     def mix(self, imageToBeMixed: 'ImageModel', magnitudeOrRealRatio: float, phaesOrImaginaryRatio: float, mode: 'Modes') -> np.ndarray:
-      
+        outputData=np.array([])
         size1 = int(magnitudeOrRealRatio*self.size)
         completeSize1 = self.size - size1
-        print(magnitudeOrRealRatio)
-        print(phaesOrImaginaryRatio)
+       
         size2 = int(phaesOrImaginaryRatio*imageToBeMixed.size)
         completeSize2 = imageToBeMixed.size - size2
         logger.info("start mixing") 
        
-        if mode == "realAndImaginary":       
+        if mode == Modes.realAndImaginary:       
             comp1Part1 = self.real[:size1]
             comp1Part2 = imageToBeMixed.real[:completeSize1]
             All_comp1 = self.appnendFun(comp1Part1,comp1Part2)
@@ -59,7 +58,7 @@ class ImageModel():
         
             outputData = self.transfrom(All_comp1,All_comp2,"RealAndImaginray")
         
-        elif mode =="testMagAndPhaseMode":
+        elif mode ==Modes.magnitudeAndPhase:
             comp1Part1 = self.magnitude[:size1]
             comp1Part2 = imageToBeMixed.magnitude[:completeSize1]
             All_comp1 = self.appnendFun(comp1Part1,comp1Part2)
@@ -71,7 +70,7 @@ class ImageModel():
             outputData = self.transfrom(All_comp1,All_comp2,"")
             
 
-        elif (mode == "testMagAndUnifromPhaseMode"):
+        elif mode == Modes.magnitudeAndUnifromPhase:
             comp1Part1 = self.magnitude[:size1]
             comp1Part2 = imageToBeMixed.magnitude[:completeSize1]
             All_comp1 = self.appnendFun(comp1Part1,comp1Part2)
@@ -82,7 +81,7 @@ class ImageModel():
     
             outputData = self.transfrom(All_comp1,All_comp2,"")
         
-        elif(mode == "unifromtestMagAndPhaseMode"):
+        elif mode == Modes.unifromMagnitudeAndPhase:
             comp1Part1 = self.uniformMag[:size1]
             comp1Part2 = imageToBeMixed.magnitude[:completeSize1]
             All_comp1 = self.appnendFun(comp1Part1,comp1Part2)
@@ -93,7 +92,7 @@ class ImageModel():
 
             outputData = self.transfrom(All_comp1,All_comp2,"")
            
-        elif (mode == "UtestMagAndUPhaseMode"):
+        elif mode == Modes.unifromMagnitudeAndUnifromPhase:
             comp1Part1 = self.unifromMag[:size1]
             comp1Part2 = imageToBeMixed.magnitude[:completeSize1]
             All_comp1 = self.appnendFun(comp1Part1,comp1Part2)
@@ -103,8 +102,17 @@ class ImageModel():
             All_comp2 = self.appnendFun(comp2Part2,comp2Part1)
 
             outputData = self.transfrom(All_comp1,All_comp2,"")
-        logger.info("Finish mixing")            
-        return(np.array(outputData))
+            print('Hii')
+                
+        if (len(outputData) >0):
+            logger.info("Finish mixing")   
+            return(np.array(outputData))
+            
+        else:
+           
+            logger.info("Nothing") 
+            pass  
+
 
 
     def transfrom(self,comp1,comp2,flag):

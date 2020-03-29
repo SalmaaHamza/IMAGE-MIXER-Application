@@ -10,8 +10,9 @@ import numpy as np
 from PIL import Image
 import glob,os
 import logging
-
-logging.basicConfig(filename="newfile1.log", 
+from modesEnum import Modes
+from imageModel import ImageModel as image
+logging.basicConfig(filename="newfile.log", 
             format='%(asctime)s %(message)s', 
             filemode='w') 
 #Creating an object 
@@ -19,7 +20,7 @@ logger=logging.getLogger()
 
 #Setting the threshold of logger to DEBUG 
 logger.setLevel(logging.DEBUG) 
-from imageModel import ImageModel as image
+
 
 class MyWindow(QtWidgets.QMainWindow):
    
@@ -49,6 +50,7 @@ class MyWindow(QtWidgets.QMainWindow):
         self.index =[]
         self.ImgData = [0,0]
         self.rmvFlag = True
+
         # for i in range(self.output):
         #    self.output.activated.connect()
         self.mix_comp = [self.ui.compchosen1,self.ui.compchosen2]   
@@ -63,15 +65,16 @@ class MyWindow(QtWidgets.QMainWindow):
         self.image =[]
         self.output_display = 0
         self.ui.outputoptions.activated.connect(self.outputFlag)
-        self.Img_Files = ['RealImg1','RealImg2'] 
+       
         self.Img_viewer = [self.ui.org_img1,self.ui.org_img2,self.ui.comp_img1,self.ui.comp_img2,self.ui.img_out1,self.ui.img_out2]
 
         self.magChoose = ["Phase","uniform phase","Options"]
+    
         self.phaseChoose = ["Magnitude","uniform magnitude","Options"]
         self.realChoose = ["Imaginary","Options"]
         self.imagChoose = ["Real","Options"]
         self.all_optionsExists = ["Options","Imaginary","Magnitude","uniform magnitude","Phase","uniform phase","Real"]
-    
+     
         self.ratioMixing = [self.ui.ratio2_2 ,self.ui.ratio2]
         self.ratioMixing[0].valueChanged.connect(lambda:self.sliderRatio(0))
         self.ratioMixing[1].valueChanged.connect(lambda:self.sliderRatio(1))
@@ -132,7 +135,7 @@ class MyWindow(QtWidgets.QMainWindow):
         Data =[]
         logger.info("combobox"+str(flag)+"Clicked")   
         if ( self.choose[flag].currentText() == "FT_Mag"):
-            Data = self.imags[flag].magnitude 
+            Data = 20*np.log(self.imags[flag].magnitude )
             logger.info("FT_Mag Component is selected")   
         elif( self.choose[flag].currentText() == "FT_Phase"):
             Data = self.imags[flag].phase
@@ -166,6 +169,7 @@ class MyWindow(QtWidgets.QMainWindow):
 
     def mix_options(self,flag):
         self.savedItems = []  
+        self.rmvFlag = True
         if str(self.mix_comp[flag].currentText())=="Magnitude":
             self.savedItems = self.magChoose
             
@@ -196,6 +200,7 @@ class MyWindow(QtWidgets.QMainWindow):
         elif str(self.mix_comp[flag].currentText())=="uniform phase":
             self.savedItems = self.phaseChoose
             self.statusFlag[flag]=6
+            
             logger.info("unifrom phase is selected as component  " +str(flag+1)) 
         
         elif str(self.mix_comp[flag].currentText())=="Options":
@@ -203,12 +208,25 @@ class MyWindow(QtWidgets.QMainWindow):
             self.savedItems = self.all_optionsExists 
 
         Elements = self.savedItems  
+      
         if (len(Elements)>0):
-            self.mix_comp[not(flag)].clear()
-            for element in Elements:
-                    self.mix_comp[not(flag)].addItem(element)
+            if (self.rmvFlag):
+                if (self.statusFlag[flag] == 5 and self.statusFlag[not(flag)]==6) or (self.statusFlag[flag] == 6 and self.statusFlag[not(flag)]==5):
+                    Element = Elements[1]
+                    Elements[1] = Elements[0]
+                    Elements[0] = Element
+                   
+                self.mix_comp[not(flag)].clear()
+                for element in Elements:
+                        self.mix_comp[not(flag)].addItem(element)
+            else:
+                self.mix_comp[flag].clear()
+                for element in Elements:
+                        self.mix_comp[flag].addItem(element)
 
-        self.Mixer_equations()
+            
+
+            self.Mixer_equations()
  
     def Exit(self):
         for infile in glob.glob("*.png"):
@@ -236,63 +254,71 @@ class MyWindow(QtWidgets.QMainWindow):
     def Mixer_equations(self):
         Data= [self.imags[self.ImgData[0]-1],self.imags[self.ImgData[1]-1]]
         outputData = np.array([])
-               
-        for i in range(2):   
-          
-            if (self.statusFlag[i] == 3 & self.statusFlag[not(i)] == 4):
-               # Real -- Imag
+            
+        
+        for i in range(2):  
+      
+        
+            if(self.statusFlag[i] == 3 & self.statusFlag[not(i)] == 4):
+            # Real -- Imag
                 logger.info("Real of input 1 $ imaginary of input 2") 
-                outputData = Data[i].mix(Data(not(i)),self.value[i] ,self.value[not(i)],"realAndImaginary")
+                outputData = Data[i].mix(Data(not(i)),self.value[i] ,self.value[not(i)],Modes.realAndImaginary)
 
                 
-            elif(self.statusFlag[i] == 4) & (self.statusFlag[not(i)] == 3) :
+            elif(self.statusFlag[i] == 4) & (self.statusFlag[not(i)] == 3):
                 #Real -- Imag
-                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],"realAndImaginary")
+                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],Modes.realAndImaginary)
                 logger.info("Real of input 1 $ imaginary of input 2") 
-         
-            elif(self.statusFlag[i] == 1) & (self.statusFlag[not(i)] == 2):
+        
+            elif(self.statusFlag[i] == 1)&(self.statusFlag[not(i)] == 2):
                 #Mag  --- Phase
-             
-                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],"testMagAndPhaseMode")
+            
+                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],Modes.magnitudeAndPhase)
                 logger.info("Real of input 1 $ imaginary of input 2") 
 
-            elif(self.statusFlag[not(i)] == 1) & (self.statusFlag[i] == 2):
+            elif(self.statusFlag[not(i)] == 1)&(self.statusFlag[i] == 2):
                 #Mag -- Phase
-                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],"testMagAndPhaseMode")
+                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],Modes.magnitudeAndPhase)
                 logger.info("Real of input 1 $ imaginary of input 2") 
-              
-            elif(self.statusFlag[i] == 1) & (self.statusFlag[not(i)] == 6):
+            
+            elif(self.statusFlag[i] == 1)&(self.statusFlag[not(i)] == 6):
                 #Mag -- unifromPhase
-                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],"testMagAndUnifromPhaseMode")
+                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],Modes.magnitudeAndUnifromPhase)
                 logger.info("Magnitude of input 1 $ unifromPhase of input 2") 
 
-            elif(self.statusFlag[i] == 6) & (self.statusFlag[not(i)] == 1):
+            elif(self.statusFlag[i] == 6)&(self.statusFlag[not(i)] == 1):
                 #Mag -- UnifromPhase
-                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],"testMagAndUnifromPhaseMode")
+                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],Modes.magnitudeAndUnifromPhase)
                 logger.info("Magnitude of input 2 $ unifromPhase of input 1") 
             
-            elif(self.statusFlag[i] == 2 & self.statusFlag[not(i)] == 5):
+            elif(self.statusFlag[i] == 2) & (self.statusFlag[not(i)] == 5):
                 #Mag -- UnifromPhase
-                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],"unifromtestMagAndPhaseMode")
+                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],Modes.unifromMagnitudeAndPhase)
                 logger.info("unifromMagnitude of input 1 $ Phase of input 2") 
             
-            elif(self.statusFlag[i] == 5 & self.statusFlag[not(i)] == 2):
+            elif(self.statusFlag[i] == 5 )&( self.statusFlag[not(i)] == 2):
                 #Mag -- UnifromPhase
-                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],"unifromtestMagAndPhaseMode")
+                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],Modes.unifromMagnitudeAndPhase)
                 logger.info("unifromMagnitude of input 2 $ Phase of input 1") 
         
-            elif(self.statusFlag[i] == 5 & self.statusFlag[not(i)] == 6):
-                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],"UtestMagAndUPhaseMode")
+            elif (self.statusFlag[i] == 5) & (self.statusFlag[not(i)] == 6):
+              
+                outputData = Data[i].mix(Data[not(i)],self.value[i] ,self.value[not(i)],Modes.unifromMagnitudeAndUnifromPhase)
                 logger.info("unifromMagnitude of input 1 $ unifromPhase of input 2") 
+        
+            elif (self.statusFlag[i] == 6 )& (self.statusFlag[not(i)] == 5):
            
-            elif(self.statusFlag[i] == 6 & self.statusFlag[not(i)] == 5):
-                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],"UtestMagAndUPhaseMode")
+                outputData = Data[not(i)].mix(Data[i],self.value[not(i)] ,self.value[i],Modes.unifromMagnitudeAndUnifromPhase)
                 logger.info("unifromMagnitude of input 2 $ unifromPhase of input 1") 
                 
             else:
                 pass
+        
+        
+    
+    
         self.update_Image(outputData)
-   
+
     def outputFlag(self):
         if (str(self.ui.outputoptions.currentText())=="Output_1"):
             self.output_display = 1
@@ -302,14 +328,14 @@ class MyWindow(QtWidgets.QMainWindow):
 
     def update_Image(self,Data):
         flag = self.output_display-1
-
+      
         image = self.image
         if (flag>=0)&(len(Data)>0):
             self.save(flag,Data,flag+4)
            
         else:
             pass
-        
+      
 
 
           

@@ -1,6 +1,6 @@
 ### Write your name and ID
-## Name:
-## ID: 
+## Name: Salma Hamza
+## ID: 38
 
 # MagnitudePhaseMixerTemplate
 Starter Template for Magnitude Phase Mixer Task
